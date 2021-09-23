@@ -1,0 +1,5 @@
+From java:11
+WORKDIR .
+ADD myapp.jar myapp.jar
+EXPOSE 8080
+CMD java -jar myapp.jar
